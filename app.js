@@ -5,6 +5,8 @@ const port = 8080
 
 const router = require('./routes/routes');
 
+app.use(express.static("public"));
+
 // Set view engine
 app.set('view engine', 'ejs');
 
