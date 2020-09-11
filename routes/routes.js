@@ -7,7 +7,6 @@ router.get('/', (req, res) =>{
 
 router.get('/about', function(req, res) {
     res.sendFile('about.html', { root: 'public' });
-//    res.send('About');
 });
 
 router.get('/contact', (req, res) =>{
